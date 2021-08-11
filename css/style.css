@@ -1,0 +1,123 @@
+
+
+#artist-container #artist-shape span
+{
+	background-image:url(https://www.caribana-festival.ch/app/uploads/2019/11/Trame_pointillé_bleue_Big-1.png);
+}
+
+#caribana-poster #poster #poster-image
+{
+	background-image:url(../asset/carib2020_home_blue-1.jpg);
+}
+
+footer .net4all {
+	background-image :url(https://www.caribana-festival.ch/app/themes/caribana_theme/temp_image/net-4-all.png);
+}
+@font-face {
+ 	font-family: "home font";
+	 src: url(https://www.caribana-festival.ch/app/uploads/2018/11/timanfaya-webfont.woff2) format("woff2"),
+	 url(https://www.caribana-festival.ch/app/uploads/2018/11/timanfaya-webfont.woff2) format("woff");
+ }
+
+#homepage .font-caribana-home span{
+	color: #000000;
+	font-family: home font !important;
+}
+
+#homepage svg .outer path {
+	fill : #c0ce2b;
+}
+
+#homepage svg .inner path {
+	fill : #c7344b;
+}
+
+#shop-address > div {
+	border-color: #c7344b;
+}
+
+/* FORM ERROR */
+/* validation */
+.form-success-msg,
+form.needs-validation .form-success {
+	color: #4284b6;
+}
+/* error */
+.form-error-msg,
+.TODO {
+	color: #4284b6;
+}
+
+#caribana-days,
+span#dates {
+	background-image : url(https://www.caribana-festival.ch/app/uploads/2021/03/caribanadays22-432px-vert.png);
+}
+
+#special-offer .offer-title,
+#artist-infos li a,
+.ticket-day span,
+.line-effect span,
+#other-artists li a,
+.news-slider ul li span,
+#shop-address span,
+#shop-address a
+{
+	color: #c7344b;
+}
+
+#caribana-ad {
+	background-image:url(https://www.caribana-festival.ch/app/themes/caribana_theme/temp_image/wave.svg);
+}
+
+.primary-color,
+#days-navigation a:after,
+#filters-navigation a:after,
+#filters-navigation a:after,
+.ticket-selection span,
+.ticket-selection ul,
+.line-effect span:after,
+.line-effect span:before,
+.line-effect:before,
+.line-effect:after,
+.line-effect .btn-bg,
+.line-effect .rec,
+.pika-single .is-selected .pika-button,
+.pika-single .pika-button:hover,
+#news-container span.flashnews,
+footer
+{
+	background-color: #c7344b;
+}
+
+/* secondary button */
+.secondary.line-effect span {
+	color: #c0ce2b;
+
+}
+.secondary.line-effect span:after,
+.secondary.line-effect span:before,
+.secondary.line-effect:before,
+.secondary.line-effect:after,
+.secondary.line-effect .btn-bg,
+.secondary.line-effect .rec,
+.front-3 {
+	
+	background-color: #c0ce2b;
+}
+
+.primary-color-light:after {	
+
+	background-color : #f6405d;
+}
+
+.news-date ul:after,
+#news-container .news-image:after,
+.img-container:after {
+	background-image : url(https://www.caribana-festival.ch/app/uploads/2019/11/Trame_pointillé_bleue-1.png);
+}
+
+body {
+    --main-color: #c7344b;
+    --secondary-color:#c0ce2b;
+}
+
