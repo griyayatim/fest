@@ -1,123 +1,79 @@
-
-
-#artist-container #artist-shape span
-{
-	background-image:url(https://www.caribana-festival.ch/app/uploads/2019/11/Trame_pointillé_bleue_Big-1.png);
-}
-
-#caribana-poster #poster #poster-image
-{
-	background-image:url(../asset/carib2020_home_blue-1.jpg);
-}
-
-footer .net4all {
-	background-image :url(https://www.caribana-festival.ch/app/themes/caribana_theme/temp_image/net-4-all.png);
-}
-@font-face {
- 	font-family: "home font";
-	 src: url(https://www.caribana-festival.ch/app/uploads/2018/11/timanfaya-webfont.woff2) format("woff2"),
-	 url(https://www.caribana-festival.ch/app/uploads/2018/11/timanfaya-webfont.woff2) format("woff");
- }
-
-#homepage .font-caribana-home span{
-	color: #000000;
-	font-family: home font !important;
-}
-
-#homepage svg .outer path {
-	fill : #c0ce2b;
-}
-
-#homepage svg .inner path {
-	fill : #c7344b;
-}
-
-#shop-address > div {
-	border-color: #c7344b;
-}
-
-/* FORM ERROR */
-/* validation */
-.form-success-msg,
-form.needs-validation .form-success {
-	color: #4284b6;
-}
-/* error */
-.form-error-msg,
-.TODO {
-	color: #4284b6;
-}
-
-#caribana-days,
-span#dates {
-	background-image : url(https://www.caribana-festival.ch/app/uploads/2021/03/caribanadays22-432px-vert.png);
-}
-
-#special-offer .offer-title,
-#artist-infos li a,
-.ticket-day span,
-.line-effect span,
-#other-artists li a,
-.news-slider ul li span,
-#shop-address span,
-#shop-address a
-{
-	color: #642b7c;
-}
-
-#caribana-ad {
-	background-image:url(https://www.caribana-festival.ch/app/themes/caribana_theme/temp_image/wave.svg);
-}
-
-.primary-color,
-#days-navigation a:after,
-#filters-navigation a:after,
-#filters-navigation a:after,
-.ticket-selection span,
-.ticket-selection ul,
-.line-effect span:after,
-.line-effect span:before,
-.line-effect:before,
-.line-effect:after,
-.line-effect .btn-bg,
-.line-effect .rec,
-.pika-single .is-selected .pika-button,
-.pika-single .pika-button:hover,
-#news-container span.flashnews,
-footer
-{
-	background-color: #642b7c;
-}
-
-/* secondary button */
-.secondary.line-effect span {
-	color: #c0ce2b;
-
-}
-.secondary.line-effect span:after,
-.secondary.line-effect span:before,
-.secondary.line-effect:before,
-.secondary.line-effect:after,
-.secondary.line-effect .btn-bg,
-.secondary.line-effect .rec,
-.front-3 {
-	
-	background-color: #c0ce2b;
-}
-
-.primary-color-light:after {	
-
-	background-color : #f6405d;
-}
-
-.news-date ul:after,
-#news-container .news-image:after,
-.img-container:after {
-	background-image : url(https://www.caribana-festival.ch/app/uploads/2019/11/Trame_pointillé_bleue-1.png);
-}
-
-body {
-    --main-color: #c7344b;
-    --secondary-color:#c0ce2b;
-}
-
+.container {
+	box-sizing: border-box;
+	min-height: 83vh;
+	width: 50%;
+	margin: ;
+	display: flex;
+	/* flex-flow: row wrap; */
+	align-content: flex-start;
+	padding: 0.2em;
+  }
+  .card {
+	margin: 0.5em 1.2em 0.5em 0.1em;
+	height: 14em;
+	max-width: 99%;
+	flex: 1 1 auto;
+	display: flex;
+	background-color: white;
+	box-shadow: 1px 3px 3px rgba(0, 10, 20, 0.06);
+	border-radius: 15px;
+  }
+  .card img {
+	height: 100%;
+	max-width: 10em;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	flex: 1 1 auto;
+	border-radius: 15px 0 0 15px;
+  }
+  .card-body {
+	width: 12em;
+	max-height: 100%;
+	flex: 1 1 auto;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	padding: 1em;
+  }
+  .card-body button {
+	min-width: 8.3em;
+	flex: none;
+	align-self: flex-start;
+	margin-top: auto;
+	padding: 0.6em 1.2em;
+	font-size: 0.92em;
+	color: #404646;
+	background: none;
+	border: 0.5px solid #777;
+	border-radius: 5px;
+  }
+  .card-body button:hover {
+	border-color: #BBDEFB;
+	background:#BBDEFB;
+  }
+  .card-text {
+	position: relative;
+	flex: 1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0 0 0.8em 0;
+	padding: 0;
+  }
+  .card-text h3, .card-text p {
+	margin-top: 0;
+  }
+  .card-text:after {
+	position: absolute;
+	bottom: 0;
+	content: "";
+	width: 100%;
+	height: 1em;
+	background: linear-gradient(rgba(255, 255, 255, 0), white);
+  }
+  a {
+	color: #d07777;
+	text-decoration: none;
+  }
+  a:hover {
+	text-decoration: underline;
+  }
