@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	min-height: 83vh;
 	width: 50%;
-	margin: ;
+	margin: auto;
 	display: flex;
 	/* flex-flow: row wrap; */
 	align-content: flex-start;
